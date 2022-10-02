@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'jazmin-reguler';
+    src: url('../font/jazmin/Jazmin\ Alt\ Regular.otf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+* {
+    font-family: "jazmin-reguler" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.nav-link:hover:before{
+    content: '> ';
+}
+
+#open {
+    background-image: url('../icon/cross.png');
+    background-size: 20px;
+    transition: ease-in-out 0.2s;
+}
+
+#close {
+    transition: ease-in-out 0.2s;
+}
+
+.content-section{
+    float: left;
+    width: 100%;
+    margin: auto;
+    /* padding: 100px 0 0 0; */
+}
+
+.content-item div{
+    position: relative;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.content-item a img{
+    width: 100%;
+    max-height: 43.3vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.p4-p4{
+    max-height: 21.5vw !important;
+}
+
+.content-item div:after, .content-item div:before {
+    position:absolute;
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.content-item div:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+}
+
+.content-item div:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    bottom:40%;
+    padding:4px 10px;
+    text-align:center;
+    font-size: 20pt;
+    /* background:red; */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.content-item div:hover:after, .content-item div:hover:before {
+    opacity:0;
+}
+
+.content-grid{
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .content-item a img{
+        width: 100%;
+        max-height: 30vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .p4-p4{
+        max-height: 30vh !important;
+    }
+
+    .content-grid{
+        display: block !important;
+    }
+}
