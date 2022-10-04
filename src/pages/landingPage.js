@@ -47,13 +47,13 @@ class LandingPage extends Component {
                         {/* <p className="legend">Legend 8</p> */}
                     </div>
                 </Carousel>
-                <section className='about-section p-4'>
+                <section className='about-section p-3'>
                     <div className='about-container'>
                         <Row>
                             <Col md={6} style={{textAlign:'center'}}>
                                 <img src={require('../assets/image/logo-mara/MARA.png')} width={'70%'} style={{maxWidth:'100%'}} />
                             </Col>
-                            <Col md={6}>
+                            <Col md={6} className='my-auto'>
                                 <h3 className='mb-4' style={{fontWeight:'bold'}}>ABOUT US</h3>
                                 <span style={{whi : 'pre-wrap'}}>
                                     Mara Group is a one-stop service and hospitality company at Jakarta and Megamendung, Bogor, Indonesia established in 2022. <br /><br />
