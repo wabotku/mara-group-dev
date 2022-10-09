@@ -4,6 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import "../assets/css/main.css"
 import { Carousel } from 'react-responsive-carousel';
 import { Col, Row } from 'reactstrap';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import defaultImage from '../assets/image/default.png';
 
 class LandingPage extends Component {
     constructor(props) {
@@ -13,40 +16,42 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
-                <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true} interval={3500} showIndicators={false} showStatus={false}>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/1-SUDUT LENGGAH.jpg')} />
-                        {/* <p className="legend">Legend 1</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/2-NAIRA.jpg')} />
-                        {/* <p className="legend">Legend 2</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/3-KAINGARA.jpg')} />
-                        {/* <p className="legend">Legend 3</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/4-KAET.jpg')} />
-                        {/* <p className="legend">Legend 4</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/5-KUTAMARA.jpg')} />
-                        {/* <p className="legend">Legend 5</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/6-BALEMARA.jpg')} />
-                        {/* <p className="legend">Legend 6</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/7-SUDUT LENGGAH PUNCAK.jpg')} />
-                        {/* <p className="legend">Legend 7</p> */}
-                    </div>
-                    <div>
-                        <img src={require('../assets/image/slider-utama/8-RUMAMARA.jpg')} />
-                        {/* <p className="legend">Legend 8</p> */}
-                    </div>
-                </Carousel>
+                <section className='carousel-section'>
+                    <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true} interval={3500} showIndicators={false} showStatus={false}>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/1-SUDUT LENGGAH.jpg')} />
+                            {/* <p className="legend">Legend 1</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/2-NAIRA.jpg')} />
+                            {/* <p className="legend">Legend 2</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/3-KAINGARA.jpg')} />
+                            {/* <p className="legend">Legend 3</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/4-KAET.jpg')} />
+                            {/* <p className="legend">Legend 4</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/5-KUTAMARA.jpg')} />
+                            {/* <p className="legend">Legend 5</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/6-BALEMARA.jpg')} />
+                            {/* <p className="legend">Legend 6</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/7-SUDUT LENGGAH PUNCAK.jpg')} />
+                            {/* <p className="legend">Legend 7</p> */}
+                        </div>
+                        <div>
+                            <img src={require('../assets/image/slider-utama/8-RUMAMARA.jpg')} />
+                            {/* <p className="legend">Legend 8</p> */}
+                        </div>
+                    </Carousel>
+                </section>
                 <section className='about-section p-3'>
                     <div className='about-container'>
                         <Row>
@@ -88,16 +93,39 @@ class LandingPage extends Component {
                                     </a> 
                                 </div>
                             </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4 p4-p4'>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4'>
                                 <div data-content="KAET">
                                     <a href='#'>
                                         <img className='p4-p4' src={require('../assets/image/homepage/kaet.jpg')} />
                                     </a>
                                 </div>
-                                <div data-content="KAET">
+                                <div data-content="KUTAMARA">
                                     <a href='#'>
-                                        <img className='p4-p4' src={require('../assets/image/homepage/kaet.jpg')} />
+                                        <img className='p4-p4' src={defaultImage} />
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='content-grid col-md-12 col-sm-12 pt-5'>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="BALE MARA">
+                                    <a href='#'>
+                                        <img className='p4-p4' src={defaultImage} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="SUDUT LENGGAH PUNCAK">
+                                    <a href='#'>
+                                        <img className='p4-p4' src={defaultImage} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="RUMA MARA">
+                                    <a href='#'>
+                                        <img className='p4-p4' src={defaultImage} />
+                                    </a> 
                                 </div>
                             </div>
                         </div>
