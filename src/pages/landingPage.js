@@ -73,11 +73,11 @@ class LandingPage extends Component {
                 </section>
 
                 <section className='content-section'>
-                        <div className='content-grid col-md-12 col-sm-12'>
+                        {/* <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                                 <div data-content="SUDUT LENGGAH">
                                     <a href='#'>
-                                        <img src={require('../assets/image/homepage/suleng.jpg')} />
+                                        <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
                                     </a> 
                                 </div>
                             </div>
@@ -105,26 +105,65 @@ class LandingPage extends Component {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div className='content-grid col-md-12 col-sm-12 pt-5'>
+                        </div> */}
+                        <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="BALE MARA">
+                                <div data-content="NAIRA">
                                     <a href='#'>
-                                        <img className='p4-p4' src={defaultImage} />
+                                        <img src={require('../assets/image/homepage/naira.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="KAET">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/kaet.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="KAINGARA">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/kaingara.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className='content-grid col-md-12 col-sm-12' >
+                            <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                                <div data-content="rumamara">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/rumamara.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                                <div data-content="SUDUT LENGGAH BINTARO">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div className='content-grid col-md-12 col-sm-12'>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="KUTAMARA">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/kutamara.jpg')} />
+                                    </a> 
+                                </div>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="BALEMARA">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/homepage/balemara.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                                 <div data-content="SUDUT LENGGAH PUNCAK">
                                     <a href='#'>
-                                        <img className='p4-p4' src={defaultImage} />
-                                    </a> 
-                                </div>
-                            </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="RUMA MARA">
-                                    <a href='#'>
-                                        <img className='p4-p4' src={defaultImage} />
+                                        <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
                                     </a> 
                                 </div>
                             </div>

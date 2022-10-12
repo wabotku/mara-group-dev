@@ -51,7 +51,7 @@
 }
 
 .p4-p4{
-    max-height: 21.5vw !important;
+    /* max-height: 21.5vw !important; */
 }
 
 .content-item div:after, .content-item div:before {
@@ -88,7 +88,7 @@
 
 .content-grid{
     display: flex;
-    padding: 0;
+    padding: 0 40px 0 40px;
     width: 100%;
 }
 
