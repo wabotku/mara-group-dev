@@ -100,6 +100,14 @@
         object-position: center;
     }
 
+    .carousel .slide img {
+        border: 0;
+        height: 100vh;
+        object-fit: cover;
+        vertical-align: top;
+        width: 100%;
+    }
+    
     .p4-p4{
         max-height: 32vh !important;
     }
