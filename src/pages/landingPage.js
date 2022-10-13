@@ -12,7 +12,9 @@ class LandingPage extends Component {
     constructor(props) {
         super(props);
         this.state = {}
-        Aos.init()
+        Aos.init({
+            duration : 1000
+        })
     }
     render() {
         return (
@@ -56,10 +58,10 @@ class LandingPage extends Component {
                 <section className='about-section p-3'>
                     <div className='about-container'>
                         <Row>
-                            <Col md={6} style={{textAlign:'center'}} data-aos='fade-right'  data-aos-duration='1000'>
+                            <Col md={6} style={{textAlign:'center'}} data-aos='fade-right'  >
                                 <img src={require('../assets/image/logo-mara/MARA.png')} width={'70%'} style={{maxWidth:'100%'}} />
                             </Col>
-                            <Col md={6} className='my-auto' data-aos='fade-left' data-aos-duration='1000'>
+                            <Col md={6} className='my-auto' data-aos='fade-left' >
                                 <h3 className='mb-4' style={{fontWeight:'bold'}}>ABOUT US</h3>
                                 <span style={{whi : 'pre-wrap'}}>
                                     Mara Group is a one-stop service and hospitality company at Jakarta and Megamendung, Bogor, Indonesia established in 2022. <br /><br />
@@ -109,21 +111,21 @@ class LandingPage extends Component {
                         </div> */}
                         <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="NAIRA" data-aos='fade-right' data-aos-duration='1000'>
+                                <div data-content="NAIRA" data-aos='fade-right' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/naira.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="KAET" data-aos='fade-down' data-aos-duration='1000'>
+                                <div data-content="KAET" data-aos='fade-down' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/kaet.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="KAINGARA" data-aos='fade-left' data-aos-duration='1000'>
+                                <div data-content="KAINGARA" data-aos='fade-left' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/kaingara.jpg')} />
                                     </a> 
@@ -132,14 +134,14 @@ class LandingPage extends Component {
                         </div>
                         <div className='content-grid col-md-12 col-sm-12' >
                             <div className='content-item col-lg-6 col-md-6 col-sm-6' >
-                                <div data-content="rumamara" data-aos='fade-right' data-aos-duration='1000'>
+                                <div data-content="RUMAMARA" data-aos='fade-right' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/rumamara.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-6 col-md-6 col-sm-6' >
-                                <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' data-aos-duration='1000'>
+                                <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
                                     </a> 
@@ -148,21 +150,21 @@ class LandingPage extends Component {
                         </div>
                         <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="KUTAMARA" data-aos='fade-right' data-aos-duration='1000'>
+                                <div data-content="KUTAMARA" data-aos='fade-right' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/kutamara.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="BALEMARA" data-aos='fade-up' data-aos-duration='1000'>
+                                <div data-content="BALEMARA" data-aos='fade-up' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/balemara.jpg')} />
                                     </a> 
                                 </div>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <div data-content="SUDUT LENGGAH PUNCAK" data-aos='fade-left' data-aos-duration='1000'>
+                                <div data-content="SUDUT LENGGAH PUNCAK" data-aos='fade-left' >
                                     <a href='#'>
                                         <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
                                     </a> 
