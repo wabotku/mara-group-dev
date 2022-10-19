@@ -6,7 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './pages/navbarComponent';
 import LandingPage from './pages/landingPage';
-import SulengPage from './pages/sulengPage'
+import SulengBintaroPage from './pages/sulengBintaroPage'
+import NairaPage from './pages/nairaPage'
+import KaingaraPage from './pages/kaingaraPage'
+import KaetPage from './pages/kaetPage'
+import KutamaraPage from './pages/kutamaraPage'
+import BalemaraPage from './pages/balemaraPage'
+import SulengPuncakPage from './pages/sulengPuncakPage'
+import RumamaraPage from './pages/rumamaraPage'
 import FooterComponent from './pages/footerComponent'
 
 ReactDOM.render(
@@ -15,7 +22,14 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route exact path="/sudut-lenggah" element={<SulengPage />} />
+        <Route exact path="/sudut-lenggah-bintaro" element={<SulengBintaroPage />} />
+        <Route exact path="/naira" element={<NairaPage />} />
+        <Route exact path="/kaingara" element={<KaingaraPage />} />
+        <Route exact path="/kaet" element={<KaetPage />} />
+        <Route exact path="/kutamara" element={<KutamaraPage />} />
+        <Route exact path="/balemara" element={<BalemaraPage />} />
+        <Route exact path="/sudut-lenggah-puncak" element={<SulengPuncakPage />} />
+        <Route exact path="/rumamara" element={<RumamaraPage />} />
       </Routes>
     </BrowserRouter>
     <FooterComponent />

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
 
-class SulengPage extends Component {
+class SulengBintaroPage extends Component {
     constructor(props) {
         super(props);
         this.state = {  };
@@ -10,7 +10,7 @@ class SulengPage extends Component {
         return (
             <div className="container-fluid p-0">
                 <section className='suleng-section'>
-                    <div className='text-center' style={{marginTop:'80px', marginLeft:'20vw', marginRight:'20vw'}}>
+                    <div className='content text-center'>
                         <h1 style={{fontWeight:'bold'}}>SUDUT LENGGAH BINTARO</h1>
                         <p className='mt-5' style={{display:'inline-grid', fontSize:'23px'}}>
                             <span className='mb-3'>
@@ -36,13 +36,17 @@ class SulengPage extends Component {
                         </p>
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Contact Us</h3>
                         <Row>
-                            <Col>
-                                <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
+                            <Col md={6} style={{marginBottom:'30px'}}>
+                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
+                                </a>
                             </Col>
-                            <Col>
-                                <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>0821-4416-2323</span>
+                            <Col md={6}>
+                                <a href='https://wa.me/6282144162323' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                    <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>0821-4416-2323</span>
+                                </a>
                             </Col>
                         </Row>
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Location</h3>
@@ -50,8 +54,9 @@ class SulengPage extends Component {
                         Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
 
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
-                        <img src={require('../assets/map/sulengbintaro.png')}  className='mb-2'></img><br />
-
+                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
+                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img>
+                        </a>
                     </div>
                 </section>
             </div>
@@ -59,4 +64,4 @@ class SulengPage extends Component {
     }
 }
 
-export default SulengPage;
+export default SulengBintaroPage;

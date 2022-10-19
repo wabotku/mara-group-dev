@@ -31,28 +31,28 @@ function NavbarComponent(props) {
               <NavLink href="/">HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/sudut-lenggah">SUDUT LENGGAH</NavLink>
+              <NavLink href="/sudut-lenggah-bintaro">SUDUT LENGGAH</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">NAIRA</NavLink>
+              <NavLink href="/naira">NAIRA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">KAINGARA</NavLink>
+              <NavLink href="/kaingara">KAINGARA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">KAET</NavLink>
+              <NavLink href="/kaet">KAET</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">KUTAMARA</NavLink>
+              <NavLink href="/kutamara">KUTAMARA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">BALE MARA</NavLink>
+              <NavLink href="/balemara">BALE MARA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">SUDUT LENGGAH PUNCAK</NavLink>
+              <NavLink href="/sudut-lenggah-puncak">SUDUT LENGGAH PUNCAK</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">RUMA MARA</NavLink>
+              <NavLink href="/rumamara">RUMA MARA</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#">CONTACT US</NavLink>
