@@ -9,7 +9,7 @@ class KaingaraPage extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
-                <section className='suleng-section'>
+                <section className='kaingara-section'>
                     <div className='content text-center'>
                         <h1 className='mb-5' style={{fontWeight:'bold'}}>KAINGARA</h1>
                         <h1 style={{fontWeight:'bold'}}>#WearWithAPride </h1>
@@ -19,7 +19,7 @@ class KaingaraPage extends Component {
                             </span>
                         </p>
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Starting Price from IDR 5,000,000* </h3>
-                        <p style={{ display:'inline-grid', fontSize:'23px'}}>
+                        <p className='deskripsi'>
                            <span> - Custom Kebaya  </span>
                            <span> - Custom Wedding Gowns  </span>
                            <span> - Custom Beskap  </span>
@@ -58,16 +58,19 @@ class KaingaraPage extends Component {
                             </Col>
                         </Row>
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Location</h3>
-                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> <span style={{fontSize:'23px'}}> <b>Ruma Mara</b> <br />
-                        Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
+                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
+                        <span style={{fontSize:'23px'}}> 
+                            <b>Ruma Mara</b> <br />
+                            Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330
+                        </span>
 
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
                         <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')}  className='mb-2'></img><br />
+                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'}  className='mb-2'></img>
                         </a>
 
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Operational Hours</h3>
-                        <p style={{ display:'inline-grid', fontSize:'23px'}}>
+                        <p className='deskripsi'>
                            <span> Tuesday - Sunday | 9AM - 5PM </span>
                         </p>
 

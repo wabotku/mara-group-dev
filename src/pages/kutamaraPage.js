@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
 
-class SulengPage extends Component {
+class KutamaraPage extends Component {
     constructor(props) {
         super(props);
         this.state = {  };
@@ -9,49 +9,62 @@ class SulengPage extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
-                <section className='suleng-section'>
-                    <div className='text-center' style={{marginTop:'80px', marginLeft:'30vw', marginRight:'30vw'}}>
-                        <h1 style={{fontWeight:'bold'}}>SUDUT LENGGAH BINTARO</h1>
-                        <p className='mt-5' style={{display:'inline-grid', fontSize:'23px'}}>
-                            <span className='mb-3'>
-                                We are ready to serve for your Event from Engagemen, Wedding, Syukuran, Corporate Events, Parties and Gathering*
-                            </span>
-                            <span>
-                                Please contact us and we can customise a menu that suits your needs to bring joy at your event
-                            </span>
-                        </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Also Available in Hampers</h3>
-                        <span style={{display:'inline-grid', fontSize:'23px'}}>
-                            Cofe & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | exact
+                <section className='kutamara-section'>
+                    <div className='content text-center'>
+                        <h1 className='mb-4'>KUTAMARA</h1>
+                        <h1 style={{fontWeight:'bold'}}>#CelebrateHereInKutamara </h1>
+
+                        <h3 className='mt-3 mb-4'>Multifunctional Venue</h3>
+                        <span className='deskripsi'>
+                            ( Engagement, Wedding, Birthday Party, Family or Office Gathering, Photoshoot etc. ) 
                         </span>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Terms & Conditions</h3>
-                        <p style={{ display:'inline-grid', fontSize:'23px'}}>
-                           <span> * Minimum Order 50 Pax for Tea & Beverages </span>
-                           <span> * Maximum Order 100 Pax for Food </span>
-                           <span> * Price excluded Tax & Service and Handling feel </span>
-                           <span> * Booking Fee 50% for Date Blocking </span>
-                           <span> * Confirm Menu D-3 </span>
-                           <span> * Cancellation Fee </span>
-                           <span> * No Food Tasting </span>
+
+                        <h3 className='mt-3 mb-4'>Book & Celebrate Your Moment With Us </h3>
+
+                        <h3 className='mt-3 mb-4'>Bundling Package</h3>
+                        <p className='deskripsi'>
+                            <span>Venue All Area + Villa 3D2N </span>
+                            <span className='mt-1'> IDR 35,000,000, nett*  </span>
+                            <span className='mt-4'> We're open for custom package and you're allowed to use another vendor with our terms & conditions, please do discuss with us for more information!   </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Contact Us</h3>
+
+                        <h3 className='mt-3 mb-4'>Facilities</h3>
+                        <p className='deskripsi'>
+                            <span> - 6 Hours Duration Event </span>
+                            <span> - Dressing Room  </span>
+                            <span> - Tiffany Chair 200 Pcs  </span>
+                            <span> - Round Table 22 Pcs  </span>
+                            <span> - Long Table 14 Pcs  </span>
+                            <span> - Electricity 10,500 watt  </span>
+                            <span> - Etc.  </span>
+                        </p>
+
+                        <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
-                            <Col>
-                                <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
+                            <Col md={6} style={{marginBottom:'30px'}}>
+                                <a href='https://www.instagram.com/kuta.mara/' target={'_blank'}>
+                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>@kuta.mara </span>
+                                </a>
                             </Col>
-                            <Col>
-                                <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>0821-4416-2323</span>
+                            <Col md={6}>
+                                <a href='https://wa.me/62811388204296' target={'_blank'}>
+                                    <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>08113-8820-4296 </span>
+                                </a>
                             </Col>
                         </Row>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Location</h3>
-                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> <span style={{fontSize:'23px'}}> <b>Ruma Mara</b> <br />
-                        Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
 
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
+                        <h3 className='mt-5 mb-4'>Location</h3>
+                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
+                        <span className='deskripsi'> 
+                            <b>Kutamara</b> <br />
+                            JI. Pakancilan, RT 04, RW O4, Kuta, Kec. Megamendung, Bogor, Jawa Barat, 16770. 
+                        </span>
+
+                        <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')}  className='mb-2'></img><br />
+                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img><br />
                         </a>
                     </div>
                 </section>
@@ -60,4 +73,4 @@ class SulengPage extends Component {
     }
 }
 
-export default SulengPage;
+export default KutamaraPage;

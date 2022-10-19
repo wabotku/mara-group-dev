@@ -11,8 +11,8 @@ class SulengBintaroPage extends Component {
             <div className="container-fluid p-0">
                 <section className='suleng-section'>
                     <div className='content text-center'>
-                        <h1 style={{fontWeight:'bold'}}>SUDUT LENGGAH BINTARO</h1>
-                        <p className='mt-5' style={{display:'inline-grid', fontSize:'23px'}}>
+                        <h1>SUDUT LENGGAH BINTARO</h1>
+                        <p className='deskripsi mt-5'>
                             <span className='mb-3'>
                                 We are ready to serve for your Event from Engagemen, Wedding, Syukuran, Corporate Events, Parties and Gathering*
                             </span>
@@ -20,12 +20,12 @@ class SulengBintaroPage extends Component {
                                 Please contact us and we can customise a menu that suits your needs to bring joy at your event
                             </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Also Available in Hampers</h3>
-                        <span style={{display:'inline-grid', fontSize:'23px'}}>
-                            Cofe & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | exact
+                        <h3 className='mt-5 mb-4'>Also Available in Hampers</h3>
+                        <span className='deskripsi'>
+                            Cofe & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | Etc.
                         </span>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Terms & Conditions</h3>
-                        <p style={{ display:'inline-grid', fontSize:'23px'}}>
+                        <h3 className='mt-5 mb-4'>Terms & Conditions</h3>
+                        <p className='deskripsi'>
                            <span> * Minimum Order 50 Pax for Tea & Beverages </span>
                            <span> * Maximum Order 100 Pax for Food </span>
                            <span> * Price excluded Tax & Service and Handling feel </span>
@@ -34,26 +34,26 @@ class SulengBintaroPage extends Component {
                            <span> * Cancellation Fee </span>
                            <span> * No Food Tasting </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Contact Us</h3>
+                        <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'}>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282144162323' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://wa.me/6282144162323' target={'_blank'}>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>0821-4416-2323</span>
                                 </a>
                             </Col>
                         </Row>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Location</h3>
+                        <h3 className='mt-5 mb-4'>Location</h3>
                         <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> <span style={{fontSize:'23px'}}> <b>Ruma Mara</b> <br />
                         Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
 
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
+                        <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
                             <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img>
                         </a>

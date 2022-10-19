@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
 
-class SulengPage extends Component {
+class KaetPage extends Component {
     constructor(props) {
         super(props);
         this.state = {  };
@@ -9,50 +9,53 @@ class SulengPage extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
-                <section className='suleng-section'>
-                    <div className='text-center' style={{marginTop:'80px', marginLeft:'30vw', marginRight:'30vw'}}>
-                        <h1 style={{fontWeight:'bold'}}>SUDUT LENGGAH BINTARO</h1>
-                        <p className='mt-5' style={{display:'inline-grid', fontSize:'23px'}}>
-                            <span className='mb-3'>
-                                We are ready to serve for your Event from Engagemen, Wedding, Syukuran, Corporate Events, Parties and Gathering*
-                            </span>
+                <section className='kaet-section'>
+                    <div className='content text-center'>
+                        <h1 className='mb-4'>KAET</h1>
+                        <h1 style={{fontWeight:'bold'}}>#ShopWithKaetScarves </h1>
+                        <p className='deskripsi'>
                             <span>
-                                Please contact us and we can customise a menu that suits your needs to bring joy at your event
+                                One Stop Mosleem Apparrel's Shop in Town 
                             </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Also Available in Hampers</h3>
-                        <span style={{display:'inline-grid', fontSize:'23px'}}>
-                            Cofe & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | exact
-                        </span>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Terms & Conditions</h3>
-                        <p style={{ display:'inline-grid', fontSize:'23px'}}>
-                           <span> * Minimum Order 50 Pax for Tea & Beverages </span>
-                           <span> * Maximum Order 100 Pax for Food </span>
-                           <span> * Price excluded Tax & Service and Handling feel </span>
-                           <span> * Booking Fee 50% for Date Blocking </span>
-                           <span> * Confirm Menu D-3 </span>
-                           <span> * Cancellation Fee </span>
-                           <span> * No Food Tasting </span>
+
+                        <h3 className='mt-3 mb-4'>Your Modest Wear</h3>
+
+                        <h3 className='mt-3 mb-4'>Collections</h3>
+                        <p className='deskripsi'>
+                            <span> - Iman Prayer Set </span>
+                            <span> - Sky In Heritage ( Hijab ) </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Contact Us</h3>
+
+                        <h3 className='mt-3 mb-4'>Available In</h3>
+                        <p className='deskripsi'>
+                            <span> Emerald, Hazelnut Brown, Light Grey, Pink Blush, Turquoise, Lilac for <b>Iman Prayer Set</b> </span>
+                            <span className='mt-3'> Hawthorn Rose, Lotus, Dried Moss, Granite Green, Pageant Blue for <b>Sky In Heritage (Hijab)</b> </span>
+                        </p>
+
+                        <h3 className='mt-3 mb-4'>Chic & Versatile</h3>
+
+                        <h3 className='mt-3 mb-4'>Shop Online </h3>
+                        <a href='https://shopee.co.id/kaetscaves' target={'_blank'}>
+                            <img src={require('../assets/icon/shopee.png')} width='50px' className='mb-2'></img><br />
+                            <span style={{fontSize:'23px'}}>kaetscaves </span>
+                        </a>
+
+                        <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
-                            <Col>
-                                <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
+                            <Col md={6} style={{marginBottom:'30px'}}>
+                                <a href='https://wa.me/6282123083303' target={'_blank'}>
+                                    <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>0821-2308-3303</span>
+                                </a>
                             </Col>
-                            <Col>
-                                <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>0821-4416-2323</span>
+                            <Col md={6}>
+                                <a href='https://www.instagram.com/kaetscarves.id/' target={'_blank'}>
+                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
+                                    <span style={{fontSize:'23px'}}>@kaetscarves.id</span>
+                                </a>
                             </Col>
                         </Row>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Location</h3>
-                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> <span style={{fontSize:'23px'}}> <b>Ruma Mara</b> <br />
-                        Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
-
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
-                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')}  className='mb-2'></img><br />
-                        </a>
                     </div>
                 </section>
             </div>
@@ -60,4 +63,4 @@ class SulengPage extends Component {
     }
 }
 
-export default SulengPage;
+export default KaetPage;

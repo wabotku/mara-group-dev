@@ -9,13 +9,13 @@ class FooterComponent extends Component {
     }
     render() {
         return (
-            <div className="container-fluid p-0">
-                <section className='footer-section'>
-                    <Row>
-                        <Col style={{marginLeft:'100px'}}>
+            <div className="container-fluid p-0" >
+                <section className='footer-section' >
+                    <Row style={{textAlign:'center'}}>
+                        <Col md={6}>
                             Rumamara Group.
                         </Col>
-                        <Col style={{textAlign:'center'}}>
+                        <Col md={6} >
                             &copy; Copyright 2022 Rumamara Group. All Rights Reserved.
                         </Col>
                     </Row>

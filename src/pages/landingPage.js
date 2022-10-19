@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "../assets/css/main.css"
 import { Carousel } from 'react-responsive-carousel';
-import { Col, Row } from 'reactstrap';
+import { Col, Row, NavLink } from 'reactstrap';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import defaultImage from '../assets/image/default.png';
@@ -111,64 +111,80 @@ class LandingPage extends Component {
                         </div> */}
                         <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/naira'>
                                 <div data-content="NAIRA" data-aos='fade-right' >
-                                    <a href='#'>
+                                    <a href='/naira'>
                                         <img src={require('../assets/image/homepage/naira.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/kaet'>
                                 <div data-content="KAET" data-aos='fade-down' >
-                                    <a href='#'>
+                                    <a href='/kaet'>
                                         <img src={require('../assets/image/homepage/kaet.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/kaingara'>
                                 <div data-content="KAINGARA" data-aos='fade-left' >
-                                    <a href='#'>
+                                    <a href='/kaingara'>
                                         <img src={require('../assets/image/homepage/kaingara.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                         </div>
                         <div className='content-grid col-md-12 col-sm-12' >
                             <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                                <NavLink href='/rumamara'>
                                 <div data-content="RUMAMARA" data-aos='fade-right' >
-                                    <a href='#'>
+                                    <a href='/rumamara'>
                                         <img src={require('../assets/image/homepage/rumamara.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                             <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                                <NavLink href='/sudut-lenggah-bintaro'>
                                 <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' >
-                                    <a href='#'>
+                                    <a href='/sudut-lenggah-bintaro'>
                                         <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                         </div>
                         <div className='content-grid col-md-12 col-sm-12'>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/kutamara'>
                                 <div data-content="KUTAMARA" data-aos='fade-right' >
-                                    <a href='#'>
+                                    <a href='/kutamara'>
                                         <img src={require('../assets/image/homepage/kutamara.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/balemara'>
                                 <div data-content="BALEMARA" data-aos='fade-up' >
-                                    <a href='#'>
+                                    <a href='/balemara'>
                                         <img src={require('../assets/image/homepage/balemara.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                             <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <NavLink href='/sudut-lenggah-puncak'>
                                 <div data-content="SUDUT LENGGAH PUNCAK" data-aos='fade-left' >
-                                    <a href='#'>
+                                    <a href='/sudut-lenggah-puncak'>
                                         <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
                                     </a> 
                                 </div>
+                                </NavLink>
                             </div>
                         </div>
                 </section>
