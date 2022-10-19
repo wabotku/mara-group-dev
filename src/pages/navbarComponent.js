@@ -28,7 +28,10 @@ function NavbarComponent(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar style={{marginLeft:'80px'}}>
             <NavItem>
-              <NavLink href="#">SUDUT LENGGAH</NavLink>
+              <NavLink href="/">HOME</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/sudut-lenggah">SUDUT LENGGAH</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#">NAIRA</NavLink>

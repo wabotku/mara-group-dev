@@ -3,16 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavbarComponent from './pages/navbarComponent';
 import LandingPage from './pages/landingPage';
+import SulengPage from './pages/sulengPage'
+import FooterComponent from './pages/footerComponent'
 
 ReactDOM.render(
   <>
     <NavbarComponent />
     <BrowserRouter>
-      <LandingPage />
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/sudut-lenggah" element={<SulengPage />} />
+      </Routes>
     </BrowserRouter>
+    <FooterComponent />
   </>,
   document.getElementById('root')
 );
