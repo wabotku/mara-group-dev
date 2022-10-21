@@ -35,7 +35,7 @@
 }
 
 .content-section{
-    float: left;
+    /* float: left; */
     width: 100%;
     margin: auto;
     /* padding: 100px 0 0 0; */
