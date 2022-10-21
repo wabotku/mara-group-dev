@@ -40,8 +40,8 @@ class SulengPuncakPage extends Component {
                         </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
-                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img>
+                        <a href='https://goo.gl/maps/J9WXeop8wmQLP3p1A' target={'_blank'}>
+                            <img src={require('../assets/map/kutamara.png')} width={'300px'} className='mb-2'></img>
                         </a>
                     </div>
                 </section>

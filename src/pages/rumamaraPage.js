@@ -20,17 +20,17 @@ class RumamaraPage extends Component {
                         <Row>
                             <Col md={4} className='content-item'>
                                 <div data-content="SUDUT LENGGAH KITCHEN & EATERY">
-                                    <img src={require('../assets/image/homepage/naira.jpg')} style={{width:'100%', maxHeight:'43.3vw'}}/>
+                                    <img src={require('../assets/image/rumamara/rumamara1.jpg')} style={{width:'100%', maxHeight:'43.3vw'}}/>
                                 </div>
                             </Col>
                             <Col md={4} className='content-item'>
                                 <div data-content="KAINGARA STUDIO" >
-                                    <img src={require('../assets/image/homepage/naira.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
+                                    <img src={require('../assets/image/rumamara/rumamara2.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
                                 </div>
                             </Col>
                             <Col md={4} className='content-item'>
                                 <div data-content="NAIRA SALON & SPA" >
-                                    <img src={require('../assets/image/homepage/naira.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
+                                    <img src={require('../assets/image/rumamara/rumamara3.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
                                 </div>
                             </Col>
                         </Row>
@@ -43,8 +43,8 @@ class RumamaraPage extends Component {
                         </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
-                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img>
+                        <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>
+                            <img src={require('../assets/map/rumamara.png')} width={'300px'} className='mb-2'></img>
                         </a>
                     </div>
                 </section>

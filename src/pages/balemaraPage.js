@@ -66,8 +66,8 @@ class BalemaraPage extends Component {
                         </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
-                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img><br />
+                        <a href='https://goo.gl/maps/FUmkdpXhB85rcMLMA' target={'_blank'}>
+                            <img src={require('../assets/map/balemara.png')} width={'300px'} className='mb-2'></img><br />
                         </a>
 
                         <h3 className='mt-5 mb-4'>Reservation via WhatsApp or Tiket.com </h3>

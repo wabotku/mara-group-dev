@@ -49,8 +49,8 @@ class NairaPage extends Component {
                         </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
-                        <a href='https://goo.gl/maps/57xaRjxJnWxq2Uk78' target={'_blank'}>
-                            <img src={require('../assets/map/sulengbintaro.png')} width={'300px'} className='mb-2'></img><br />
+                        <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>
+                            <img src={require('../assets/map/rumamara.png')} width={'300px'} className='mb-2'></img><br />
                         </a>
 
                         <h3 className='mt-5 mb-4'>Operational Hours</h3>
