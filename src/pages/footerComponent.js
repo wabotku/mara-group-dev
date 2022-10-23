@@ -11,14 +11,14 @@ class FooterComponent extends Component {
         return (
             <div className="container-fluid p-0" >
                 <section className='footer-section' >
-                    <Row style={{textAlign:'center'}}>
-                        <Col md={6}>
-                            Rumamara Group.
-                        </Col>
-                        <Col md={6} >
-                            &copy; Copyright 2022 Rumamara Group. All Rights Reserved.
-                        </Col>
-                    </Row>
+                    <div className='row'>
+                        <div className='col-md-6 left'>
+                            <span>Rumamara Group.</span>
+                        </div>
+                        <div className='col-md-6 right'>
+                            <span>&copy; Copyright 2022 Rumamara Group. All Rights Reserved.</span>
+                        </div>
+                    </div>
                 </section>
             </div>
         );

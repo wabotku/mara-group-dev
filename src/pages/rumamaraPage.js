@@ -12,11 +12,10 @@ class RumamaraPage extends Component {
                 <section className='rumamara-section'>
                     <div className='content text-center'>
                         <h1>RUMA MARA</h1>
-                        <h3 className='mt-5 mb-4'>One Stop Service at Bintaro, Sektor | Area </h3>
-                        <span className='deskripsi'>
+                        <h3 className='mt-5 mb-2'>One Stop Service at Bintaro, Sektor | Area </h3>
+                        <span className='deskripsi mb-5'>
                             Your One Stop Solution for Restaurant, Boutique & Salon 
                         </span>
-                        
                         <Row>
                             <Col md={4} className='content-item'>
                                 <div data-content="SUDUT LENGGAH KITCHEN & EATERY">
@@ -34,17 +33,16 @@ class RumamaraPage extends Component {
                                 </div>
                             </Col>
                         </Row>
-
                         <h3 className='mt-5 mb-4'>Location</h3>
                         <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
                         <span style={{fontSize:'23px'}}> 
-                            <b>Ruma Mara</b> <br />
-                            JI. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330 
+                            <b>Ruma Mara</b>
+                            <p style={{marginLeft:'22vw', marginRight:'22vw'}}>JI. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330 </p>
                         </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>
-                            <img src={require('../assets/map/rumamara.png')} width={'300px'} className='mb-2'></img>
+                            <img src={require('../assets/map/rumamara.png')} className='maps mb-2'></img>
                         </a>
                     </div>
                 </section>

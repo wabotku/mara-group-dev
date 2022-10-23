@@ -64,7 +64,7 @@ class KutamaraPage extends Component {
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/J9WXeop8wmQLP3p1A' target={'_blank'}>
-                            <img src={require('../assets/map/kutamara.png')} width={'300px'} className='mb-2'></img><br />
+                            <img src={require('../assets/map/kutamara.png')} className='maps mb-2'></img><br />
                         </a>
                     </div>
                 </section>

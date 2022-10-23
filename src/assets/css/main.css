@@ -120,9 +120,38 @@
     font-weight: bold;
 }
 
+.maps{
+    width: 40vw;
+    border-radius: 10%;
+}
+
+.maps:hover{
+    border: 2px solid black;
+}
+
 .deskripsi{
     font-size: 23px;
     display: inline-grid;
+}
+.rumamara-section .content{
+ margin: 80px 5vw 0 5vw;
+}
+
+.footer-section{
+    padding: 20px;
+    background-color:rgba(212, 212, 212, 0.87);
+}
+
+.footer-section .left span{
+    margin-left: 20px;
+}
+
+.footer-section .right {
+    text-align: right;
+}
+
+.footer-section .right span{
+    margin-right: 20px;
 }
 
 @media (max-width: 767px) {
@@ -156,9 +185,8 @@
     .deskripsi{
         font-size: 19px;
     }
-}
 
-.footer-section{
-    padding: 20px;
-    background-color:rgba(212, 212, 212, 0.87);
+    .footer-section .right, .footer-section .left {
+        text-align: center;
+    }
 }

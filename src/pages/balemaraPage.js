@@ -67,7 +67,7 @@ class BalemaraPage extends Component {
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/FUmkdpXhB85rcMLMA' target={'_blank'}>
-                            <img src={require('../assets/map/balemara.png')} width={'300px'} className='mb-2'></img><br />
+                            <img src={require('../assets/map/balemara.png')} className='maps mb-2'></img><br />
                         </a>
 
                         <h3 className='mt-5 mb-4'>Reservation via WhatsApp or Tiket.com </h3>

@@ -66,7 +66,7 @@ class KaingaraPage extends Component {
 
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Google Maps</h3>
                         <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>
-                            <img src={require('../assets/map/rumamara.png')} width={'300px'}  className='mb-2'></img>
+                            <img src={require('../assets/map/rumamara.png')} className='maps mb-2'></img>
                         </a>
 
                         <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Operational Hours</h3>

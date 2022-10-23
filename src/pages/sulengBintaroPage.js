@@ -55,7 +55,7 @@ class SulengBintaroPage extends Component {
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>
-                            <img src={require('../assets/map/rumamara.png')} width={'300px'} className='mb-2'></img>
+                            <img src={require('../assets/map/rumamara.png')} className='maps mb-2'></img>
                         </a>
                     </div>
                 </section>
