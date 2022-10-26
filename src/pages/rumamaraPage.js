@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import "../assets/css/main.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class RumamaraPage extends Component {
     constructor(props) {
@@ -12,27 +14,34 @@ class RumamaraPage extends Component {
                 <section className='rumamara-section'>
                     <div className='content text-center'>
                         <h1>RUMA MARA</h1>
-                        <h3 className='mt-5 mb-2'>One Stop Service at Bintaro, Sektor | Area </h3>
+                        <h3 className='mt-5 mb-2'>One Stop Service at Bintaro, Sektor 1 Area </h3>
                         <span className='deskripsi mb-5'>
                             Your One Stop Solution for Restaurant, Boutique & Salon 
                         </span>
-                        <Row>
-                            <Col md={4} className='content-item'>
-                                <div data-content="SUDUT LENGGAH KITCHEN & EATERY">
-                                    <img src={require('../assets/image/rumamara/rumamara1.jpg')} style={{width:'100%', maxHeight:'43.3vw'}}/>
+                        <div className='content-grid col-md-12 col-sm-12'>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="SUDUT LENGGAH KITCHEN & EATERY" >
+                                    <a href='#'>
+                                        <img src={require('../assets/image/rumamara/rumamara1.jpg')} />
+                                    </a> 
                                 </div>
-                            </Col>
-                            <Col md={4} className='content-item'>
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                                 <div data-content="KAINGARA STUDIO" >
-                                    <img src={require('../assets/image/rumamara/rumamara2.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
+                                    <a href='#'>
+                                        <img src={require('../assets/image/rumamara/rumamara2.jpg')} />
+                                    </a> 
                                 </div>
-                            </Col>
-                            <Col md={4} className='content-item'>
-                                <div data-content="NAIRA SALON & SPA" >
-                                    <img src={require('../assets/image/rumamara/rumamara3.jpg')} style={{width:'100%', maxHeight:'43.3vw'}} />
+                            </div>
+                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                                <div data-content="NAIRA SALON & SPA">
+                                    <a href='#'>
+                                        <img src={require('../assets/image/rumamara/rumamara3.jpg')} />
+                                    </a> 
                                 </div>
-                            </Col>
-                        </Row>
+                            </div>
+                        </div>
+
                         <h3 className='mt-5 mb-4'>Location</h3>
                         <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
                         <span style={{fontSize:'23px'}}> 

@@ -18,8 +18,56 @@ class KaetPage extends Component {
                                 One Stop Mosleem Apparrel's Shop in Town 
                             </span>
                         </p>
+                    </div>
 
-                        <h3 className='mt-3 mb-4'>Your Modest Wear</h3>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (1).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (2).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (3).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div><div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (4).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (5).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaet/KAET (6).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='content text-center'>
+                        <h3 className='mb-4'>Your Modest Wear</h3>
 
                         <h3 className='mt-3 mb-4'>Collections</h3>
                         <p className='deskripsi'>

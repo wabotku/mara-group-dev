@@ -14,15 +14,15 @@ class SulengBintaroPage extends Component {
                         <h1>SUDUT LENGGAH BINTARO</h1>
                         <p className='deskripsi mt-5'>
                             <span className='mb-3'>
-                                We are ready to serve for your Event from Engagemen, Wedding, Syukuran, Corporate Events, Parties and Gathering*
+                                We are ready to serve for your Event from Engagement, Wedding, Syukuran, Corporate Events, Parties and Gathering*
                             </span>
                             <span>
-                                Please contact us and we can customise a menu that suits your needs to bring joy at your event
+                                Please contact us and we can customise a menu that suits your needs to bring joy at your event.
                             </span>
                         </p>
                         <h3 className='mt-5 mb-4'>Also Available in Hampers</h3>
                         <span className='deskripsi'>
-                            Cofe & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | Etc.
+                            Coffee & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | Etc.
                         </span>
                         <h3 className='mt-5 mb-4'>Terms & Conditions</h3>
                         <p className='deskripsi'>

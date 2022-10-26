@@ -12,12 +12,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 .nav-item a{
     color: black;
 }
 
 .nav-link:hover:before{
     content: '> ';
+}
+
+.about-section .about-container{
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .content-item .nav-link:hover:before{
@@ -101,7 +116,7 @@
 
 .content{
     margin-top: 80px;
-    margin-bottom: 80px;
+    /* margin-bottom: 40px; */
     margin-left: 25vw;
     margin-right: 25vw;
 }

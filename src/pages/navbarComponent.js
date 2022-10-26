@@ -31,7 +31,7 @@ function NavbarComponent(props) {
               <NavLink href="/">HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/sudut-lenggah-bintaro">SUDUT LENGGAH</NavLink>
+              <NavLink href="/sudut-lenggah-bintaro">SUDUT LENGGAH KITCHEN & EATERY</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/naira">NAIRA</NavLink>
@@ -49,7 +49,7 @@ function NavbarComponent(props) {
               <NavLink href="/balemara">BALE MARA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/sudut-lenggah-puncak">SUDUT LENGGAH PUNCAK</NavLink>
+              <NavLink href="/sudut-lenggah-puncak">SUDUT LENGGAH COFFEE & EATERY</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/rumamara">RUMA MARA</NavLink>

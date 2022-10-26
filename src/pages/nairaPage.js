@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import "../assets/css/main.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class NairaPage extends Component {
     constructor(props) {
@@ -20,11 +22,36 @@ class NairaPage extends Component {
                                 Full treatment for your Hair, Body, Nails & Face
                             </span>
                         </p>
-                        <h3 className='mt-5 mb-4'>Packages</h3>
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/naira/naira1.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/naira/naira2.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/naira/naira3.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className='content text-center'>
+                        <h3 className='mb-4'>Packages</h3>
                         <p className='deskripsi'>
-                           <span> - Traditional (Start from IDR 150,000,- )  </span>
+                           <span> - Traditional (Start from IDR 150,000,- ++ )  </span>
                            <span> - Premium (Start from IDR 578,000,- ++ )  </span>
-                           <span> - Wedding Treatments ( Start from IDR 1O50,000,- ++ ) </span>
+                           <span> - Wedding Treatments ( Start from IDR 1,O50,000,- ++ ) </span>
                         </p>
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>

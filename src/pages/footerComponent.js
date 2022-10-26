@@ -13,10 +13,10 @@ class FooterComponent extends Component {
                 <section className='footer-section' >
                     <div className='row'>
                         <div className='col-md-6 left'>
-                            <span>Rumamara Group.</span>
+                            <span>Mara Group | @maragroupjkt</span>
                         </div>
                         <div className='col-md-6 right'>
-                            <span>&copy; Copyright 2022 Rumamara Group. All Rights Reserved.</span>
+                            <span>&copy; Copyright 2022 Mara Group. All Rights Reserved.</span>
                         </div>
                     </div>
                 </section>

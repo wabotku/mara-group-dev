@@ -56,8 +56,8 @@ class LandingPage extends Component {
                     </Carousel>
                 </section>
                 <section className='about-section p-3'>
-                    <div className='about-container'>
-                        <Row>
+                    <div className='about-container align-middle'>
+                        <Row className='d-flex flex-wrap align-items-center'>
                             <Col md={6} style={{textAlign:'center'}} data-aos='fade-right'  >
                                 <img src={require('../assets/image/logo-mara/MARA.png')} width={'70%'} style={{maxWidth:'100%'}} />
                             </Col>

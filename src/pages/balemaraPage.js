@@ -21,7 +21,7 @@ class BalemaraPage extends Component {
 
                         <h3 className='mt-3 mb-4'>Price List 2022 </h3>
                         <p className='deskripsi'>
-                            <span> Weekday : IDR 7,.000,000,-*/ Night </span>
+                            <span> Weekday : IDR 7,000,000,-*/ Night </span>
                             <span className='mt-1'> Weekend : IDR 7,500,000,*/ Night  </span>
                             <span className='mt-1'> 1 Floor Only : IDR 2,500,000,*/ Night </span>
                         </p>
@@ -53,7 +53,7 @@ class BalemaraPage extends Component {
                             <Col md={6}>
                                 <a href='https://wa.me/62811388204296' target={'_blank'}>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>08113-8820-4296 </span>
+                                    <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
                                 </a>
                             </Col>
                         </Row>
@@ -61,7 +61,7 @@ class BalemaraPage extends Component {
                         <h3 className='mt-5 mb-4'>Location</h3>
                         <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
                         <span className='deskripsi'> 
-                            <b>Kutamara</b> <br />
+                            <b>Balemara</b> <br />
                             JI. Pakancilan, RT 04, RW O4, Kuta, Kec. Megamendung, Bogor, Jawa Barat, 16770. 
                         </span>
 

@@ -18,7 +18,34 @@ class KaingaraPage extends Component {
                                 Custom Kebaya & Wedding Gowns 
                             </span>
                         </p>
-                        <h3 className='mt-5 mb-4' style={{fontWeight:'bold'}}>Starting Price from IDR 5,000,000* </h3>
+                    </div>
+
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaingara/kaingara1.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaingara/kaingara2.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/kaingara/kaingara3.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='content text-center'>
+                        <h3 className='mb-4' style={{fontWeight:'bold'}}>Starting Price from IDR 5,000,000* </h3>
                         <p className='deskripsi'>
                            <span> - Custom Kebaya  </span>
                            <span> - Custom Wedding Gowns  </span>
