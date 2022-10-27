@@ -55,7 +55,7 @@ function NavbarComponent(props) {
               <NavLink href="/rumamara">RUMA MARA</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#">CONTACT US</NavLink>
+              <NavLink href="/contact-us">CONTACT US</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

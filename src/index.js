@@ -14,6 +14,7 @@ import KutamaraPage from './pages/kutamaraPage'
 import BalemaraPage from './pages/balemaraPage'
 import SulengPuncakPage from './pages/sulengPuncakPage'
 import RumamaraPage from './pages/rumamaraPage'
+import ContactUs from './pages/contactUs'
 import FooterComponent from './pages/footerComponent'
 
 ReactDOM.render(
@@ -30,6 +31,7 @@ ReactDOM.render(
         <Route exact path="/balemara" element={<BalemaraPage />} />
         <Route exact path="/sudut-lenggah-puncak" element={<SulengPuncakPage />} />
         <Route exact path="/rumamara" element={<RumamaraPage />} />
+        <Route exact path="/contact-us" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
     <FooterComponent />
