@@ -16,13 +16,13 @@ class ContactUs extends Component {
                         <p className='deskripsi'>
                             <span> Jl. Bintaro Utara Blok H1 No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330 </span>
                             <span className='mt-4'>
-                                <a href=''>
+                                <a href='https://www.instagram.com/maragroupjkt/' target={'_blank'}>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img> &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                                 </a>
-                                <a href=''>
+                                <a href='https://tiktok.com/@kaingarastudio' target={'_blank'}>
                                     <img src={require('../assets/icon/tiktok.png')} width='50px' className='mb-2'></img> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                                 </a>
-                                <a href=''>
+                                <a href='https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=group.rumamara@gmail.com' target={'_blank'}>
                                     <img src={require('../assets/icon/gmail.png')} width='50px' className='mb-2'></img>
                                 </a>
                             </span>
