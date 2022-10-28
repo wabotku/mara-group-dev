@@ -56,14 +56,14 @@ class LandingPage extends Component {
                     </Carousel>
                 </section>
                 <section className='about-section p-3'>
-                    <div className='about-container align-middle'>
-                        <Row className='d-flex flex-wrap align-items-center'>
+                    <div className='about-container'>
+                        <Row>
                             <Col md={6} style={{textAlign:'center'}} data-aos='fade-right'  >
                                 <img src={require('../assets/image/logo-mara/MARA.png')} width={'70%'} style={{maxWidth:'100%'}} />
                             </Col>
                             <Col md={6} className='my-auto' data-aos='fade-left' >
                                 <h3 className='mb-4' style={{fontWeight:'bold'}}>ABOUT US</h3>
-                                <span style={{whi : 'pre-wrap'}}>
+                                <span style={{whiteSpace : 'pre-wrap'}}>
                                     Mara Group is a one-stop service and hospitality company at Jakarta and Megamendung, Bogor, Indonesia established in 2022. <br /><br />
                                     The meaning of our group name is Come in Sanskrit, which is also the identity of Mara Group.<br /><br />
                                     Our vision and mission is to invite people to come and feel the experiences offered by the Mara Group in every line of its business.<br /><br />
@@ -109,84 +109,84 @@ class LandingPage extends Component {
                                 </div>
                             </div>
                         </div> */}
-                        <div className='content-grid col-md-12 col-sm-12'>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/naira'>
-                                <div data-content="NAIRA" data-aos='fade-right' >
-                                    <a href='/naira'>
-                                        <img src={require('../assets/image/homepage/naira.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/naira'>
+                            <div data-content="NAIRA" data-aos='fade-right' >
+                                <a href='/naira'>
+                                    <img src={require('../assets/image/homepage/naira.jpg')} />
+                                </a> 
                             </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/kaet'>
-                                <div data-content="KAET" data-aos='fade-down' >
-                                    <a href='/kaet'>
-                                        <img src={require('../assets/image/homepage/kaet.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
-                            </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/kaingara'>
-                                <div data-content="KAINGARA" data-aos='fade-left' >
-                                    <a href='/kaingara'>
-                                        <img src={require('../assets/image/homepage/kaingara.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
-                            </div>
+                            </NavLink>
                         </div>
-                        <div className='content-grid col-md-12 col-sm-12' >
-                            <div className='content-item col-lg-6 col-md-6 col-sm-6' >
-                                <NavLink href='/rumamara'>
-                                <div data-content="RUMAMARA" data-aos='fade-right' >
-                                    <a href='/rumamara'>
-                                        <img src={require('../assets/image/homepage/rumamara.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/kaet'>
+                            <div data-content="KAET" data-aos='fade-down' >
+                                <a href='/kaet'>
+                                    <img src={require('../assets/image/homepage/kaet.jpg')} />
+                                </a> 
                             </div>
-                            <div className='content-item col-lg-6 col-md-6 col-sm-6' >
-                                <NavLink href='/sudut-lenggah-bintaro'>
-                                <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' >
-                                    <a href='/sudut-lenggah-bintaro'>
-                                        <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
-                            </div>
+                            </NavLink>
                         </div>
-                        <div className='content-grid col-md-12 col-sm-12'>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/kutamara'>
-                                <div data-content="KUTAMARA" data-aos='fade-right' >
-                                    <a href='/kutamara'>
-                                        <img src={require('../assets/image/homepage/kutamara.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/kaingara'>
+                            <div data-content="KAINGARA" data-aos='fade-left' >
+                                <a href='/kaingara'>
+                                    <img src={require('../assets/image/homepage/kaingara.jpg')} />
+                                </a> 
                             </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/balemara'>
-                                <div data-content="BALEMARA" data-aos='fade-up' >
-                                    <a href='/balemara'>
-                                        <img src={require('../assets/image/homepage/balemara.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
-                            </div>
-                            <div className='content-item col-lg-4 col-md-4 col-sm-4' >
-                                <NavLink href='/sudut-lenggah-puncak'>
-                                <div data-content="SUDUT LENGGAH PUNCAK" data-aos='fade-left' >
-                                    <a href='/sudut-lenggah-puncak'>
-                                        <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
-                                    </a> 
-                                </div>
-                                </NavLink>
-                            </div>
+                            </NavLink>
                         </div>
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12' >
+                        <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                            <NavLink href='/rumamara'>
+                            <div data-content="RUMAMARA" data-aos='fade-right' >
+                                <a href='/rumamara'>
+                                    <img src={require('../assets/image/homepage/rumamara.jpg')} />
+                                </a> 
+                            </div>
+                            </NavLink>
+                        </div>
+                        <div className='content-item col-lg-6 col-md-6 col-sm-6' >
+                            <NavLink href='/sudut-lenggah-bintaro'>
+                            <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' >
+                                <a href='/sudut-lenggah-bintaro'>
+                                    <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
+                                </a> 
+                            </div>
+                            </NavLink>
+                        </div>
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/kutamara'>
+                            <div data-content="KUTAMARA" data-aos='fade-right' >
+                                <a href='/kutamara'>
+                                    <img src={require('../assets/image/homepage/kutamara.jpg')} />
+                                </a> 
+                            </div>
+                            </NavLink>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/balemara'>
+                            <div data-content="BALEMARA" data-aos='fade-up' >
+                                <a href='/balemara'>
+                                    <img src={require('../assets/image/homepage/balemara.jpg')} />
+                                </a> 
+                            </div>
+                            </NavLink>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <NavLink href='/sudut-lenggah-puncak'>
+                            <div data-content="SUDUT LENGGAH PUNCAK" data-aos='fade-left' >
+                                <a href='/sudut-lenggah-puncak'>
+                                    <img src={require('../assets/image/homepage/suleng-puncak.jpg')} />
+                                </a> 
+                            </div>
+                            </NavLink>
+                        </div>
+                    </div>
                 </section>
             </div>
         );

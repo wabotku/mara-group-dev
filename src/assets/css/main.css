@@ -12,6 +12,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body{
+    overflow-x: hidden
+}
+
 .navbar-toggler{
     border: none;
 }
@@ -175,6 +179,10 @@
 }
 
 @media (max-width: 767px) {
+    .about-section .about-container{
+        margin: 0;
+    }
+
     .content-item a img{
         width: 100%;
         max-height: 30vh;
