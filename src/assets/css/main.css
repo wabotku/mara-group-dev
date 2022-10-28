@@ -12,8 +12,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
-    overflow-x:hidden 
+body {
+    overflow-x:hidden;
 } 
 
 .navbar-toggler{
@@ -179,6 +179,10 @@ html, body {
 }
 
 @media (max-width: 767px) {
+    html, body {
+        overflow-x:hidden;
+    } 
+
     .about-section .about-container{
         margin: 0;
     }
