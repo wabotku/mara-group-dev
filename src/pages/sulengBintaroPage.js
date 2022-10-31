@@ -25,7 +25,7 @@ class SulengBintaroPage extends Component {
                             Coffee & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | Etc.
                         </span>
                         <h3 className='mt-5 mb-4'>Terms & Conditions</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                            <span> * Minimum Order 50 Pax for Tea & Beverages </span>
                            <span> * Maximum Order 100 Pax for Food </span>
                            <span> * Price excluded Tax & Service and Handling feel </span>
@@ -39,19 +39,22 @@ class SulengBintaroPage extends Component {
                             <Col md={6} style={{marginBottom:'30px'}}>
                                 <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'}>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>@sudut.lenggah</span>
+                                    <span className='deskripsi'>@sudut.lenggah</span>
                                 </a>
                             </Col>
                             <Col md={6}>
                                 <a href='https://wa.me/6282144162323' target={'_blank'}>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>0821-4416-2323</span>
+                                    <span className='deskripsi'>0821-4416-2323</span>
                                 </a>
                             </Col>
                         </Row>
                         <h3 className='mt-5 mb-4'>Location</h3>
-                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> <span style={{fontSize:'23px'}}> <b>Ruma Mara</b> <br />
-                        Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330</span>
+                        <img src={require('../assets/icon/pin.png')} width='50px' className='mb-2'></img> 
+                        <span className='deskripsi'> 
+                            <b>Ruma Mara</b> <br />
+                            Jl. Bintaro Utara Blok HI No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330
+                        </span>
 
                         <h3 className='mt-5 mb-4'>Google Maps</h3>
                         <a href='https://goo.gl/maps/4kuRT1HEcoMpVsho8' target={'_blank'}>

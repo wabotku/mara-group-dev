@@ -20,7 +20,54 @@ class KutamaraPage extends Component {
                         </span>
 
                         <h3 className='mt-3 mb-4'>Book & Celebrate Your Moment With Us </h3>
-
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kutamara/kutamara1.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kutamara/kutamara2.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/kutamara/kutamara3.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kutamara/kutamara4.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/kutamara/kutamara5.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src='#' />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className='content text-center'>
                         <h3 className='mt-3 mb-4'>Bundling Package</h3>
                         <p className='deskripsi'>
                             <span>Venue All Area + Villa 3D2N </span>
@@ -29,7 +76,7 @@ class KutamaraPage extends Component {
                         </p>
 
                         <h3 className='mt-3 mb-4'>Facilities</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> - 6 Hours Duration Event </span>
                             <span> - Dressing Room  </span>
                             <span> - Tiffany Chair 200 Pcs  </span>
@@ -50,7 +97,7 @@ class KutamaraPage extends Component {
                             <Col md={6}>
                                 <a href='https://wa.me/62811388204296' target={'_blank'}>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>08113-8820-4296 </span>
+                                    <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
                                 </a>
                             </Col>
                         </Row>

@@ -13,7 +13,7 @@ class ContactUs extends Component {
                     <div className='content text-center'>
                         <h1 className='mb-5' style={{fontWeight:'bold'}}>GET IN TOUCH</h1>
                         <h2 style={{fontWeight:'bold'}}>PT. MARA DIERJA TARA</h2>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> Jl. Bintaro Utara Blok H1 No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330 </span>
                             <span className='mt-4'>
                                 <a href='https://www.instagram.com/maragroupjkt/' target={'_blank'}>

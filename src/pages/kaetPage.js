@@ -70,7 +70,7 @@ class KaetPage extends Component {
                         <h3 className='mb-4'>Your Modest Wear</h3>
 
                         <h3 className='mt-3 mb-4'>Collections</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> - Iman Prayer Set </span>
                             <span> - Sky In Heritage ( Hijab ) </span>
                         </p>

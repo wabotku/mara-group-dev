@@ -13,21 +13,45 @@ class BalemaraPage extends Component {
                     <div className='content text-center'>
                         <h1 className='mb-4'>BALE MARA VILLA</h1>
                         <h1 style={{fontWeight:'bold'}}>#StaylnBaleMara </h1>
-
+                    </div>
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/balemara/balemara1.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/balemara/balemara2.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/balemara/balemara3.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className='content text-center'>
                         <h3 className='mt-3 mb-4'>Capacity</h3>
                         <span className='deskripsi'>
                             20 - 30 Pax 
                         </span>
 
                         <h3 className='mt-3 mb-4'>Price List 2022 </h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> Weekday : IDR 7,000,000,-*/ Night </span>
                             <span className='mt-1'> Weekend : IDR 7,500,000,*/ Night  </span>
                             <span className='mt-1'> 1 Floor Only : IDR 2,500,000,*/ Night </span>
                         </p>
 
                         <h3 className='mt-3 mb-4'>Facilities</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> - 1 Suite Room  </span>
                             <span> - 6 Rooms </span>
                             <span> - 5 Bathrooms </span>

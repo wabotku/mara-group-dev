@@ -150,8 +150,9 @@ body {
 
 .deskripsi{
     font-size: 23px;
-    display: inline-grid;
+    /* display: inline-grid; */
 }
+
 .rumamara-section .content{
     margin: 80px 5vw 0 5vw;
 }

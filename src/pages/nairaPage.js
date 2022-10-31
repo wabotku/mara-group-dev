@@ -48,7 +48,7 @@ class NairaPage extends Component {
                     </div>
                     <div className='content text-center'>
                         <h3 className='mb-4'>Packages</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                            <span> - Traditional (Start from IDR 150,000,- ++ )  </span>
                            <span> - Premium (Start from IDR 578,000,- ++ )  </span>
                            <span> - Wedding Treatments ( Start from IDR 1,O50,000,- ++ ) </span>

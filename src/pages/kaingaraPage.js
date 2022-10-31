@@ -46,7 +46,7 @@ class KaingaraPage extends Component {
 
                     <div className='content text-center'>
                         <h3 className='mb-4' style={{fontWeight:'bold'}}>Starting Price from IDR 5,000,000* </h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                            <span> - Custom Kebaya  </span>
                            <span> - Custom Wedding Gowns  </span>
                            <span> - Custom Beskap  </span>

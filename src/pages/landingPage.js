@@ -64,11 +64,11 @@ class LandingPage extends Component {
                             <Col md={6} className='my-auto' data-aos='fade-left' >
                                 <h3 className='mb-4' style={{fontWeight:'bold'}}>ABOUT US</h3>
                                 <span style={{whiteSpace : 'pre-wrap'}}>
-                                    Mara Group is a one-stop service and hospitality company at Jakarta and Megamendung, Bogor, Indonesia established in 2022. <br /><br />
-                                    The meaning of our group name is Come in Sanskrit, which is also the identity of Mara Group.<br /><br />
-                                    Our vision and mission is to invite people to come and feel the experiences offered by the Mara Group in every line of its business.<br /><br />
-                                    Mara Group offer a variety of lifestyle, consist of cafe, boutique, salon, multifunctional vanue and villa.<br /><br />
-                                    Located in Bintaro, Sektor I for Sudut Lenggah Kitchen & Eatery, Kaingara Boutique and Naira Salon & Spa, meanwhile Kutamara & Villa Bale Mara located in Megamendung, Bogor.
+                                    Mara Group is a one-stop service and hospitality company based from Jakarta, Indonesia. <br /><br />
+                                    We offer a variety of lifestyle, consist of cafe, boutique, salon, multifunctional venue & villa.<br /><br />
+                                    The meaning of Mara is “Come” in Sanskrit, which is also the identity of Mara Group.<br /><br />
+                                    Established in 2022, our vision and mission is to invite people to come and feel the experiences offered by Mara Group in every line of it’s business.<br /><br />
+                                    Mara Group focus is our enthusiasm by serving customer or guest with prestigious service by our members. We are honored to have the opportunity to serve you passionately.
                                 </span>
                             </Col>
                         </Row>
@@ -112,7 +112,7 @@ class LandingPage extends Component {
                     <div className='content-grid col-md-12 col-sm-12'>
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <NavLink href='/naira'>
-                            <div data-content="NAIRA" data-aos='fade-right' >
+                            <div data-content="NAIRA SALON & SPA" data-aos='fade-right' >
                                 <a href='/naira'>
                                     <img src={require('../assets/image/homepage/naira.jpg')} />
                                 </a> 
@@ -150,7 +150,7 @@ class LandingPage extends Component {
                         </div>
                         <div className='content-item col-lg-6 col-md-6 col-sm-6' >
                             <NavLink href='/sudut-lenggah-bintaro'>
-                            <div data-content="SUDUT LENGGAH BINTARO" data-aos='fade-left' >
+                            <div data-content="SUDUT LENGGAH KITCHEN & EATERY" data-aos='fade-left' >
                                 <a href='/sudut-lenggah-bintaro'>
                                     <img src={require('../assets/image/homepage/suleng-bintaro.jpg')} />
                                 </a> 
