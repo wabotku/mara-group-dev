@@ -48,21 +48,21 @@ class KutamaraPage extends Component {
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="" >
                                 <a href='#'>
-                                    <img src={require('../assets/image/kutamara/kutamara4.jpg')} />
+                                    <img src={require('../assets/image/kutamara/kutamara1.jpg')} />
                                 </a> 
                             </div>
                         </div>
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="" >
                                 <a href='#'>
-                                    <img src={require('../assets/image/kutamara/kutamara5.jpg')} />
+                                    <img src={require('../assets/image/kutamara/kutamara2.jpg')} />
                                 </a> 
                             </div>
                         </div>
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="">
                                 <a href='#'>
-                                    <img src='#' />
+                                    <img src={require('../assets/image/kutamara/kutamara3.jpg')} />
                                 </a> 
                             </div>
                         </div>

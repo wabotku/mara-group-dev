@@ -14,25 +14,25 @@ class BalemaraPage extends Component {
                         <h1 className='mb-4'>BALE MARA VILLA</h1>
                         <h1 style={{fontWeight:'bold'}}>#StaylnBaleMara </h1>
                     </div>
-                    <div className='content-grid col-md-12 col-sm-12'>
+                    <div className='content-grid col-md-12 col-sm-12' >
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="" >
                                 <a href='#'>
-                                    <img src={require('../assets/image/balemara/balemara1.jpg')} />
+                                    <img src={require('../assets/image/balemara/balemara1.jpg')} style={{height:'100vh'}}/>
                                 </a> 
                             </div>
                         </div>
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="" >
                                 <a href='#'>
-                                    <img src={require('../assets/image/balemara/balemara2.jpg')} />
+                                    <img src={require('../assets/image/balemara/balemara2.jpg')} style={{height:'100vh'}}/>
                                 </a> 
                             </div>
                         </div>
                         <div className='content-item col-lg-4 col-md-4 col-sm-4' >
                             <div data-content="">
                                 <a href='#'>
-                                    <img src={require('../assets/image/balemara/balemara3.jpg')} />
+                                    <img src={require('../assets/image/balemara/balemara3.jpg')} style={{height:'100vh'}}/>
                                 </a> 
                             </div>
                         </div>
