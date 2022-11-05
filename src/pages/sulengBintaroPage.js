@@ -12,7 +12,7 @@ class SulengBintaroPage extends Component {
                 <section className='suleng-section'>
                     <div className='content text-center'>
                         <h1>SUDUT LENGGAH BINTARO</h1>
-                        <p className='deskripsi mt-5'>
+                        <p className='deskripsi mt-5' style={{display:'inline-grid'}}>
                             <span className='mb-3'>
                                 We are ready to serve for your Event from Engagement, Wedding, Syukuran, Corporate Events, Parties and Gathering*
                             </span>

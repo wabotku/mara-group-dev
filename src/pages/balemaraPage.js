@@ -46,8 +46,8 @@ class BalemaraPage extends Component {
                         <h3 className='mt-3 mb-4'>Price List 2022 </h3>
                         <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> Weekday : IDR 7,000,000,-*/ Night </span>
-                            <span className='mt-1'> Weekend : IDR 7,500,000,*/ Night  </span>
-                            <span className='mt-1'> 1 Floor Only : IDR 2,500,000,*/ Night </span>
+                            <span className='mt-1'> Weekend : IDR 7,500,000,-*/ Night  </span>
+                            <span className='mt-1'> 1 Floor Only : IDR 2,500,000,-*/ Night </span>
                         </p>
 
                         <h3 className='mt-3 mb-4'>Facilities</h3>

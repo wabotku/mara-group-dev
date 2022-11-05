@@ -12,14 +12,14 @@ class SulengPuncakPage extends Component {
                 <section className='suleng-section'>
                     <div className='content text-center'>
                         <h1>SUDUT LENGGAH PUNCAK</h1>
-                        <p className='deskripsi mt-5'>
+                        <p className='deskripsi mt-5' style={{display:'inline-grid'}}>
                             <span>
-                                Blessed with fresh air, and surrounded by pine trees.. Sudut Lenggah expand the outlets at Megamendung, Bogor which located inside of KUTAMARA 
+                                Blessed with fresh air, and surrounded by pine trees. Sudut Lenggah expand the outlets at Megamendung, Bogor which located inside of KUTAMARA. 
                             </span>
                         </p>
                         <h3 className='mt-5 mb-4'>Your favorite Back To Nature Cafe in Town! </h3>
                         <h1>1.5 Hour</h1>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span className='mb-5'>from Jakarta </span>
                             <span >
                                 We're also serve for Coffee Catering for any Events at <b>KUTAMARA</b>. 

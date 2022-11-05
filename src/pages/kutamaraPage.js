@@ -69,7 +69,7 @@ class KutamaraPage extends Component {
                     </div>
                     <div className='content text-center'>
                         <h3 className='mt-3 mb-4'>Bundling Package</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span>Venue All Area + Villa 3D2N </span>
                             <span className='mt-1'> IDR 35,000,000, nett*  </span>
                             <span className='mt-4'> We're open for custom package and you're allowed to use another vendor with our terms & conditions, please do discuss with us for more information!   </span>
