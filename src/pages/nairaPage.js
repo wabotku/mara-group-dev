@@ -14,7 +14,7 @@ class NairaPage extends Component {
                 <section className='naira-section'>
                     <div className='content text-center'>
                         <h1>NAIRA SALON & SPA</h1>
-                        <p className='deskripsi mt-5'>
+                        <p className='deskripsi mt-5' style={{display:'inline-grid'}}>
                             <span className='mb-3'>
                                 Your go to salon at Bintaro Area
                             </span>
@@ -81,7 +81,7 @@ class NairaPage extends Component {
                         </a>
 
                         <h3 className='mt-5 mb-4'>Operational Hours</h3>
-                        <p className='deskripsi'>
+                        <p className='deskripsi' style={{display:'inline-grid'}}>
                            <span> Tuesday - Sunday  </span>
                            <span> 9AM - 7PM </span>
                         </p>
