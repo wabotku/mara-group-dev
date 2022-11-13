@@ -104,9 +104,9 @@ body {
     -moz-box-sizing:border-box;
 }
 
-.rumamara-section .content-item div:before {
+/* .rumamara-section .content-item div:before {
     font-size: 12pt;
-}
+} */
 
 .content-item div:hover:after, .content-item div:hover:before {
     opacity:0;
@@ -160,6 +160,23 @@ body {
 .contactus-section .content{
     margin: 80px 34vw 0 34vw;
     height: 100vh;
+}
+
+.sosmed-cu{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.sosmed-cu:hover{
+    border-radius: 12px;
+    padding: 15px 5px 10px 5px;
+    background-color: #999;
+}
+
+.sosmed img:hover{
+    background-color: #ddd;
+    padding: 3px;
+    border-radius: 12px;
 }
 
 .footer-section{

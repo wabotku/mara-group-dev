@@ -56,13 +56,13 @@ class NairaPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/nairasalonandspa/' target={'_blank'}>
+                                <a href='https://www.instagram.com/nairasalonandspa/' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                                     <span className='deskripsi'>@nairasalonandspa </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6281392948123' target={'_blank'}>
+                                <a href='https://wa.me/6281392948123' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
                                     <span className='deskripsi'>O813-9294-8123</span>
                                 </a>

@@ -84,7 +84,7 @@ class KaetPage extends Component {
                         <h3 className='mt-3 mb-4'>Chic & Versatile</h3>
 
                         <h3 className='mt-3 mb-4'>Shop Online </h3>
-                        <a href='https://shopee.co.id/kaetscaves' target={'_blank'}>
+                        <a href='https://shopee.co.id/kaetscaves' target={'_blank'} className='sosmed'>
                             <img src={require('../assets/icon/shopee.png')} width='50px' className='mb-2'></img><br />
                             <span style={{fontSize:'23px'}}>kaetscaves </span>
                         </a>
@@ -92,13 +92,13 @@ class KaetPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://wa.me/6282123083303' target={'_blank'}>
+                                <a href='https://wa.me/6282123083303' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>0821-2308-3303</span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://www.instagram.com/kaetscarves.id/' target={'_blank'}>
+                                <a href='https://www.instagram.com/kaetscarves.id/' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>@kaetscarves.id</span>
                                 </a>

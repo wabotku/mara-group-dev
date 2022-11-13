@@ -69,13 +69,13 @@ class BalemaraPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/villabalemara/' target={'_blank'}>
+                                <a href='https://www.instagram.com/villabalemara/' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>@villabalemara </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/62811388204296' target={'_blank'}>
+                                <a href='https://wa.me/62811388204296' target={'_blank'} className='sosmed'>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
                                 </a>

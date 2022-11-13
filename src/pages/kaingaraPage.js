@@ -58,13 +58,13 @@ class KaingaraPage extends Component {
                         <h3 className='mb-4' style={{fontWeight:'bold'}}>Contact Us for Consultation!</h3>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/kaingarastudio/' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://www.instagram.com/kaingarastudio/' target={'_blank'} style={{color:'black', textDecoration:'none'}} className='sosmed'>
                                     <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>@kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282123083303' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://wa.me/6282123083303' target={'_blank'} style={{color:'black', textDecoration:'none'}} className='sosmed'>
                                     <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>0821-2308-3303</span>
                                 </a>
@@ -72,13 +72,13 @@ class KaingaraPage extends Component {
                         </Row>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://shopee.co.id/kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://shopee.co.id/kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}} className='sosmed'>
                                     <img src={require('../assets/icon/shopee.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://tiktok.com/@kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
+                                <a href='https://tiktok.com/@kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}} className='sosmed'>
                                     <img src={require('../assets/icon/tiktok.png')} width='50px' className='mb-2'></img><br />
                                     <span style={{fontSize:'23px'}}>kaingarastudio</span>
                                 </a>

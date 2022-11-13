@@ -27,7 +27,7 @@ class SulengPuncakPage extends Component {
                         </p>
                         
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
-                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'}>
+                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'} className='sosmed'>
                             <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
                             <span style={{fontSize:'23px'}}>@sudutlenggah.puncak </span>
                         </a>

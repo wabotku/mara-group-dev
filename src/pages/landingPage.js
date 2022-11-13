@@ -58,7 +58,7 @@ class LandingPage extends Component {
                 <section className='about-section p-3'>
                     <div className='about-container'>
                         <Row>
-                            <Col md={6} style={{textAlign:'center'}} data-aos='fade-right'  >
+                            <Col md={6} className='my-auto' style={{textAlign:'center'}} data-aos='fade-right'  >
                                 <img src={require('../assets/image/logo-mara/MARA.png')} width={'70%'} style={{maxWidth:'100%'}} />
                             </Col>
                             <Col md={6} className='my-auto' data-aos='fade-left' >
