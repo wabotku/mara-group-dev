@@ -37,15 +37,19 @@ class SulengBintaroPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'} className='sosmed'>
-                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                    <span className='deskripsi'>@sudut.lenggah</span>
+                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'}>
+                                    <div className='sosmed'>
+                                        <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
+                                        <span className='deskripsi'>@sudut.lenggah</span>
+                                    </div>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282144162323' target={'_blank'} className='sosmed'>
-                                    <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                    <span className='deskripsi'>0821-4416-2323</span>
+                                <a href='https://wa.me/6282144162323' target={'_blank'} >
+                                    <div className='sosmed'>
+                                        <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
+                                        <span className='deskripsi'>0821-4416-2323</span>
+                                    </div>
                                 </a>
                             </Col>
                         </Row>

@@ -173,9 +173,14 @@ body {
     background-color: #999;
 }
 
-.sosmed img:hover{
+.sosmed{
+    padding: 10px 10px 10px 10px;
+    width: 230px;
+    margin: auto;
+}
+
+.sosmed:hover{
     background-color: #ddd;
-    padding: 3px;
     border-radius: 12px;
 }
 

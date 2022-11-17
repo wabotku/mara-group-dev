@@ -89,15 +89,19 @@ class KutamaraPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/kuta.mara/' target={'_blank'} className='sosmed'>
-                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>@kuta.mara </span>
+                                <a href='https://www.instagram.com/kuta.mara/' target={'_blank'}>
+                                    <div className='sosmed'>
+                                        <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
+                                        <span style={{fontSize:'23px'}}>@kuta.mara </span>
+                                    </div>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/62811388204296' target={'_blank'} className='sosmed'>
-                                    <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                    <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
+                                <a href='https://wa.me/62811388204296' target={'_blank'}>
+                                    <div className='sosmed'>
+                                        <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
+                                        <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
+                                    </div>
                                 </a>
                             </Col>
                         </Row>
