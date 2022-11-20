@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class ContactUs extends Component {
     constructor(props) {
@@ -16,17 +17,25 @@ class ContactUs extends Component {
                         <p className='deskripsi' style={{display:'inline-grid'}}>
                             <span> Jl. Bintaro Utara Blok H1 No. 25, Sektor 1, Pesanggrahan, Jakarta Selatan, 12330 </span>
                             <span className='mt-4'>
-                                <a href='https://www.instagram.com/maragroupjkt/' target={'_blank'} className='sosmed-cu'>
-                                    <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img> 
-                                </a>
-                                |
-                                <a href='https://tiktok.com/@kaingarastudio' target={'_blank'} className='sosmed-cu'>
-                                    <img src={require('../assets/icon/tiktok.png')} width='50px' className='mb-2'></img> 
-                                </a>
-                                |
-                                <a href='https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=group.rumamara@gmail.com' target={'_blank'} className='sosmed-cu'>
-                                    <img src={require('../assets/icon/gmail.png')} width='50px' className='mb-2'></img>
-                                </a>
+                                <table className='table'>
+                                    <tr>
+                                        <td>
+                                            <a href='https://www.instagram.com/maragroupjkt/' target={'_blank'} className='sosmed'>
+                                                <FontAwesomeIcon  icon={['fab', 'instagram']} size='2x'/>
+                                            </a>
+                                        </td>
+                                        <td style={{borderRight:'1px solid black', borderLeft:'1px solid black'}}>
+                                            <a href='https://tiktok.com/@kaingarastudio' target={'_blank'} className='sosmed'>
+                                                <FontAwesomeIcon  icon={['fab', 'tiktok']} size='2x'/>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href='https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=group.rumamara@gmail.com' target={'_blank'} className='sosmed'>
+                                                <FontAwesomeIcon  icon={['fa', 'envelope']} size='2x'/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
                             </span>
                             <span className='mt-4'>Let us know if you have any questions to our accounts below : </span>
                             <span className='mt-4'> Instagram : @maragroupjkt </span>

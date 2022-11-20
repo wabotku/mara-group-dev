@@ -23,7 +23,7 @@ function NavbarComponent(props) {
           <span className="navbar-toggler-icon" id={!collapsed ? 'open' : 'close'}></span>
         </NavbarToggler>
         <NavbarBrand className="me-auto" style={{fontWeight:'bold'}}>
-          <a href='/' style={{textDecoration:'none', color:'black'}}>MARA GROUP</a>
+          <a href='/' className='btnHome' style={{textDecoration:'none', color:'black'}}>MARA GROUP</a>
         </NavbarBrand>
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar style={{marginLeft:'80px'}}>

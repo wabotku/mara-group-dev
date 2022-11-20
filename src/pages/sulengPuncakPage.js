@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class SulengPuncakPage extends Component {
     constructor(props) {
@@ -27,11 +28,9 @@ class SulengPuncakPage extends Component {
                         </p>
                         
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
-                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'}>
-                            <div className='sosmed' style={{width:'300px'}}>
-                                <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                <span style={{fontSize:'23px'}}>@sudutlenggah.puncak </span>
-                            </div>
+                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'} className='sosmed'>
+                            <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                            <span style={{fontSize:'23px'}}>@sudutlenggah.puncak </span>
                         </a>
                             
                         <h3 className='mt-5 mb-4'>Location</h3>

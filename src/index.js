@@ -16,6 +16,11 @@ import SulengPuncakPage from './pages/sulengPuncakPage'
 import RumamaraPage from './pages/rumamaraPage'
 import ContactUs from './pages/contactUs'
 import FooterComponent from './pages/footerComponent'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee, faEnvelope, faStore } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faCheckSquare, faCoffee, faEnvelope, faStore)
 
 ReactDOM.render(
   <>

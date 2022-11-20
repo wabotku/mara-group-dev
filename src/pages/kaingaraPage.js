@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class KaingaraPage extends Component {
     constructor(props) {
@@ -58,37 +59,29 @@ class KaingaraPage extends Component {
                         <h3 className='mb-4' style={{fontWeight:'bold'}}>Contact Us for Consultation!</h3>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/kaingarastudio/' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
-                                    <div className='sosmed'>
-                                        <img src={require('../assets/icon/instagram.png')} width='50px' className='mb-2'></img><br />
-                                        <span style={{fontSize:'23px'}}>@kaingarastudio </span>
-                                    </div>
+                                <a href='https://www.instagram.com/kaingarastudio/' className='sosmed' target={'_blank'}>
+                                    <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                                    <span style={{fontSize:'23px'}}>@kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282123083303' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
-                                    <div className='sosmed'>
-                                        <img src={require('../assets/icon/whatsapp.png')} width='50px' className='mb-2'></img><br />
-                                        <span style={{fontSize:'23px'}}>0821-2308-3303</span>
-                                    </div>
+                                <a href='https://wa.me/6282123083303' className='sosmed' target={'_blank'}>
+                                    <FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br />
+                                    <span style={{fontSize:'23px'}}>0821-2308-3303</span>
                                 </a>
                             </Col>
                         </Row>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://shopee.co.id/kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
-                                    <div className='sosmed'>
-                                        <img src={require('../assets/icon/shopee.png')} width='50px' className='mb-2'></img><br />
-                                        <span style={{fontSize:'23px'}}>kaingarastudio </span>
-                                    </div>
+                                <a href='https://shopee.co.id/kaingarastudio' className='sosmed' target={'_blank'}>
+                                    <FontAwesomeIcon  icon={['fab', 'shopee']} size='3x'/><br />
+                                    <span style={{fontSize:'23px'}}>kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://tiktok.com/@kaingarastudio' target={'_blank'} style={{color:'black', textDecoration:'none'}}>
-                                    <div className='sosmed'>
-                                        <img src={require('../assets/icon/tiktok.png')} width='50px' className='mb-2'></img><br />
-                                        <span style={{fontSize:'23px'}}>kaingarastudio</span>
-                                    </div>
+                                <a href='https://tiktok.com/@kaingarastudio' className='sosmed' target={'_blank'}>
+                                    <FontAwesomeIcon  icon={['fab', 'tiktok']} size='3x'/><br />
+                                    <span style={{fontSize:'23px'}}>kaingarastudio</span>
                                 </a>
                             </Col>
                         </Row>

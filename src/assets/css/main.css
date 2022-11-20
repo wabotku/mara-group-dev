@@ -32,6 +32,9 @@ body {
     content: '> ';
 }
 
+.btnHome:hover{
+    color: #777 !important;
+}
 .about-section .about-container{
     margin-left: 230px;
     margin-right: 230px;
@@ -180,7 +183,7 @@ body {
 }
 
 .sosmed:hover{
-    background-color: #ddd;
+    color: #ddd;
     border-radius: 12px;
 }
 
