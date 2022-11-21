@@ -74,7 +74,7 @@ class KaingaraPage extends Component {
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
                                 <a href='https://shopee.co.id/kaingarastudio' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'shopee']} size='3x'/><br />
+                                    <FontAwesomeIcon  icon={['fa', 'store']} size='3x'/><br />
                                     <span style={{fontSize:'23px'}}>kaingarastudio </span>
                                 </a>
                             </Col>
