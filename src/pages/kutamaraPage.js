@@ -70,14 +70,14 @@ class KutamaraPage extends Component {
                     </div>
                     <div className='content text-center'>
                         <h3 className='mt-3 mb-4'>Bundling Package</h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                             <span>Venue All Area + Villa 3D2N </span>
                             <span className='mt-1'> IDR 35,000,000,- ++*  </span>
                             <span className='mt-4'> We're open for custom package and you're allowed to use another vendor with our terms & conditions, please do discuss with us for more information!   </span>
                         </p>
 
                         <h3 className='mt-3 mb-4'>Facilities</h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                             <span> - 6 Hours Duration Event </span>
                             <span> - Dressing Room  </span>
                             <span> - Tiffany Chair 200 Pcs  </span>
@@ -90,14 +90,14 @@ class KutamaraPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/kuta.mara/' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                                <a href='https://www.instagram.com/kuta.mara/' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>@kuta.mara </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/62811388204296' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br />
+                                <a href='https://wa.me/62811388204296' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
                                 </a>
                             </Col>

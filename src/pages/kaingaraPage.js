@@ -47,7 +47,7 @@ class KaingaraPage extends Component {
 
                     <div className='content text-center'>
                         <h3 className='mb-4' style={{fontWeight:'bold'}}>Starting Price from IDR 5,000,000* </h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                            <span> - Custom Kebaya  </span>
                            <span> - Custom Wedding Gowns  </span>
                            <span> - Custom Beskap  </span>
@@ -59,28 +59,28 @@ class KaingaraPage extends Component {
                         <h3 className='mb-4' style={{fontWeight:'bold'}}>Contact Us for Consultation!</h3>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/kaingarastudio/' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                                <a href='https://www.instagram.com/kaingarastudio/' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>@kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282123083303' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br />
+                                <a href='https://wa.me/6282123083303' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>0821-2308-3303</span>
                                 </a>
                             </Col>
                         </Row>
                         <Row className='mt-5'>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://shopee.co.id/kaingarastudio' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fa', 'store']} size='3x'/><br />
+                                <a href='https://shopee.co.id/kaingarastudio' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fa', 'store']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>kaingarastudio </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://tiktok.com/@kaingarastudio' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'tiktok']} size='3x'/><br />
+                                <a href='https://tiktok.com/@kaingarastudio' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'tiktok']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>kaingarastudio</span>
                                 </a>
                             </Col>

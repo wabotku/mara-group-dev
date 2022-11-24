@@ -13,23 +13,49 @@ class SulengPuncakPage extends Component {
                 <section className='suleng-section'>
                     <div className='content text-center'>
                         <h1>SUDUT LENGGAH PUNCAK</h1>
-                        <p className='deskripsi mt-5' style={{display:'inline-grid'}}>
+                        <p className='deskripsi mt-5 d-inline-grid'>
                             <span>
                                 Blessed with fresh air, and surrounded by pine trees. Sudut Lenggah expand the outlets at Megamendung, Bogor which located inside of KUTAMARA. 
                             </span>
                         </p>
                         <h3 className='mt-5 mb-4'>Your favorite Back To Nature Cafe in Town! </h3>
                         <h1>1.5 Hour</h1>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                             <span className='mb-5'>from Jakarta </span>
                             <span >
                                 We're also serve for Coffee Catering for any Events at <b>KUTAMARA</b>. 
                             </span>
                         </p>
-                        
+                        </div>
+
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-puncak/suleng-puncak 1.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-puncak/suleng-puncak 2.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-puncak/suleng-puncak 3.jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='content text-center'>
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
-                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'} className='sosmed'>
-                            <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                        <a href='https://www.instagram.com/sudutlenggah.puncak/' target={'_blank'} className='sosmed d-inline-grid'>
+                            <span><FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/></span>
                             <span style={{fontSize:'23px'}}>@sudutlenggah.puncak </span>
                         </a>
                             

@@ -13,7 +13,7 @@ class SulengBintaroPage extends Component {
                 <section className='suleng-section'>
                     <div className='content text-center'>
                         <h1>SUDUT LENGGAH BINTARO</h1>
-                        <p className='deskripsi mt-5' style={{display:'inline-grid'}}>
+                        <p className='deskripsi mt-5 d-inline-grid'>
                             <span className='mb-3'>
                                 We are ready to serve for your Event from Engagement, Wedding, Syukuran, Corporate Events, Parties and Gathering*
                             </span>
@@ -21,12 +21,39 @@ class SulengBintaroPage extends Component {
                                 Please contact us and we can customise a menu that suits your needs to bring joy at your event.
                             </span>
                         </p>
+                    </div>
+
+                    <div className='content-grid col-md-12 col-sm-12'>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-bintaro/suleng-bintaro (1).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="" >
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-bintaro/suleng-bintaro (2).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                        <div className='content-item col-lg-4 col-md-4 col-sm-4' >
+                            <div data-content="">
+                                <a href='#'>
+                                    <img src={require('../assets/image/suleng-bintaro/suleng-bintaro (3).jpg')} />
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='content text-center'>
                         <h3 className='mt-5 mb-4'>Also Available in Hampers</h3>
                         <span className='deskripsi'>
                             Coffee & Tea Bundling | Siomay | Ayam Bakar Sambal Plecing | Pizza Pepperoni | Iga Bakar | Sate Maranggi | Bebek Goreng | Marmer Cake | Etc.
                         </span>
                         <h3 className='mt-5 mb-4'>Terms & Conditions</h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                            <span> * Minimum Order 50 Pax for Tea & Beverages </span>
                            <span> * Maximum Order 100 Pax for Food </span>
                            <span> * Price excluded Tax & Service and Handling feel </span>
@@ -38,14 +65,14 @@ class SulengBintaroPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px'}}>
-                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'} className='sosmed'>
-                                    <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                                <a href='https://www.instagram.com/sudut.lenggah/' target={'_blank'} className='sosmed d-inline-grid'>
+                                    <span><FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br /></span>
                                     <span className='deskripsi'>@sudut.lenggah</span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/6282144162323' target={'_blank'}  className='sosmed'>
-                                    <FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br />
+                                <a href='https://wa.me/6282144162323' target={'_blank'}  className='sosmed d-inline-grid'>
+                                    <span><FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br /></span>
                                     <span className='deskripsi'>0821-4416-2323</span>
                                 </a>
                             </Col>

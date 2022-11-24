@@ -45,14 +45,14 @@ class BalemaraPage extends Component {
                         </span>
 
                         <h3 className='mt-3 mb-4'>Price List 2022 </h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                             <span> Weekday : IDR 7,000,000,-*/ Night </span>
                             <span className='mt-1'> Weekend : IDR 7,500,000,-*/ Night  </span>
                             <span className='mt-1'> 1 Floor Only : IDR 2,500,000,-*/ Night </span>
                         </p>
 
                         <h3 className='mt-3 mb-4'>Facilities</h3>
-                        <p className='deskripsi' style={{display:'inline-grid'}}>
+                        <p className='deskripsi d-inline-grid'>
                             <span> - 1 Suite Room  </span>
                             <span> - 6 Rooms </span>
                             <span> - 5 Bathrooms </span>
@@ -70,14 +70,14 @@ class BalemaraPage extends Component {
                         <h3 className='mt-5 mb-4'>Contact Us</h3>
                         <Row>
                             <Col md={6} style={{marginBottom:'30px', textAlign:'center'}}>
-                                <a href='https://www.instagram.com/villabalemara/' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/><br />
+                                <a href='https://www.instagram.com/villabalemara/' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'instagram']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>@villabalemara </span>
                                 </a>
                             </Col>
                             <Col md={6}>
-                                <a href='https://wa.me/62811388204296' className='sosmed' target={'_blank'}>
-                                    <FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/><br />
+                                <a href='https://wa.me/62811388204296' className='sosmed d-inline-grid' target={'_blank'}>
+                                    <span><FontAwesomeIcon  icon={['fab', 'whatsapp']} size='3x'/></span>
                                     <span style={{fontSize:'23px'}}>0813-8820-4296 </span>
                                 </a>
                             </Col>
