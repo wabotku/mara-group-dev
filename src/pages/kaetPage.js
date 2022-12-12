@@ -87,7 +87,7 @@ class KaetPage extends Component {
 
                         <h3 className='mt-5 mb-4'>Shop Online </h3>
                         <div className='text-center'>
-                            <a href='https://shopee.co.id/kaetscaves' target={'_blank'} >
+                            <a href='https://shopee.co.id/kaetscarves' target={'_blank'} >
                                 <span><FontAwesomeIcon  icon={['fa', 'store']} size='3x'/><br /></span>
                                 <span style={{fontSize:'23px'}}>kaetscaves </span>
                             </a>
